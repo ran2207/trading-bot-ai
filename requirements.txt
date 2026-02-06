@@ -1,7 +1,25 @@
+# Trading Bot AI Dependencies
+
+# Core
 aiohttp>=3.9.0
 openai>=1.12.0
 pandas>=2.1.0
 numpy>=1.26.0
 pyyaml>=6.0.0
 python-dotenv>=1.0.0
+
+# Scheduling
 APScheduler>=3.10.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Type checking
+mypy>=1.8.0
+
+# Code quality
+black>=24.1.0
+isort>=5.13.0
+flake8>=7.0.0
